@@ -1,7 +1,21 @@
 {
   "app": {
     "js": [
-      "app.js"
+      "//static.abc.com/abcdefg/commons.js",
+      "//static.abc.com/abcdefg/app.js"
+    ],
+    "css": []
+  },
+  "appb": {
+    "js": [
+      "//static.abc.com/abcdefg/commons.js",
+      "//static.abc.com/abcdefg/appb.js"
+    ],
+    "css": []
+  },
+  "appc": {
+    "js": [
+      "//static.abc.com/abcdefg/appc.js"
     ],
     "css": []
   }
