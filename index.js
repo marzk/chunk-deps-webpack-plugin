@@ -27,8 +27,8 @@ class ChunkDepsPlugin {
         }
         const files = [];
         chunkGroup.chunks.forEach(chunk => {
-          chunk.files.forEach((file, index) => {
-            if (index === 0 || /\.css($|\?)/.test(file)) {
+          chunk.files.forEach(file => {
+            if (/\.(?:js|css)($|\?)/.test(file)) {
               files.push(url.resolve(publicPath || '', file));
             }
           });

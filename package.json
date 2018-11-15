@@ -1,12 +1,16 @@
 {
   "name": "chunk-deps-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "MarzK",
   "license": "MIT",
   "scripts": {
     "test": "webpack --config ./test/webpack.config.js"
   },
+  "files": [
+    "index.js",
+    "readme.md"
+  ],
   "peerDependencies": {
     "webpack": "^4.0.0"
   },
