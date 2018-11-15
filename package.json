@@ -1,0 +1,10 @@
+{
+  "name": "chunk-deps-webpack-plugin",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "MarzK",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "^3.0.0"
+  }
+}
